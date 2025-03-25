@@ -10,49 +10,27 @@ export class AppComponent implements OnInit {
  
   tarefas = [
     {
-      nome: 'Fazer tarefa Projeto Integrador, Tiago',
-      descricao: 'Realizar as seguintes tarefas',
+      nome: 'Raul Provas',
+      descricao: '31 a 03',
       checklist: [
         {
-          nome: 'tarefa1',
-          concluido: true,
-        },
-        {
-          nome: 'tarefa2',
+          nome: 'Segunda',
           concluido: false,
         },
         {
-          nome: 'tarefa3',
+          nome: 'Terça',
           concluido: false,
         },
         {
-          nome: 'tarefa4',
+          nome: 'Quarta',
           concluido: false,
         },
         {
-          nome: 'tarefa5',
-          concluido: false,
-        }
-      ]
-    },
-    {
-      nome: 'Estudar Orientação a Objetos',
-      descricao: 'Compreender orientação a objetos e aplicar em exercícios práticos',
-      checklist: [
-        {
-          nome: 'Abstração',
-          concluido: true,
-        },
-        {
-          nome: 'Encapsulamento',
-          concluido: false,
-        },
-        {
-          nome: 'Herança',
+          nome: 'Quinta',
           concluido: false,
         },
       ]
-    }
+    },
   ];
 
   cartoes: Cartao[] = [];
